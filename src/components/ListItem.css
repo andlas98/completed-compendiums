@@ -1,0 +1,14 @@
+.listItem{
+ display: flex;
+ background: gray;
+}
+
+.movie-poster{
+    max-height: 10rem;
+}
+.listItem-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
