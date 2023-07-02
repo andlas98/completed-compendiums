@@ -4,7 +4,7 @@ import React from "react";
 import axios from 'axios';
 import { NavBar } from './components/NavBar';
 import { useEffect } from 'react';
-import ListItem from './components/ListItem';
+import CompendiumItem from './components/CompendiumItem';
 
 function App(props) {
   useEffect(() => {
@@ -15,10 +15,10 @@ function App(props) {
       <NavBar />
       <p>Hello {props.firstName} </p>
       <p>Welcome to Collected Compendiums</p>
-      {/* <ListItem poster="https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_.jpg" 
+      <CompendiumItem poster="https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_.jpg" 
       title="Black Panther" 
       mediaType="Film"
-      releaseYear="2014"/> */}
+      releaseYear="2014"/>
     </div>
   );
 }

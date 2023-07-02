@@ -1,4 +1,9 @@
 .navBar{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     background-color: #2E2E2E !important;
     color: #FFFFFF !important;
+    display: flex;
+    align-items: space-around;
+    vertical-align: bottom;
 }

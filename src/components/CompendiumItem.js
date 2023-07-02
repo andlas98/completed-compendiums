@@ -1,8 +1,8 @@
-import "./ListItem.css";
+import "./CompendiumItem.css";
 import React from "react";
 import { Card, Box, Stack, Typography, Divider } from "@mui/material";
 
-function ListItem(props) {
+function CompendiumItem(props) {
   return (
     <Box>
       <Card className="listItem">
@@ -28,4 +28,4 @@ function ListItem(props) {
   );
 }
 
-export default ListItem;
+export default CompendiumItem;
