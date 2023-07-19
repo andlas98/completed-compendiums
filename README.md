@@ -1,9 +1,11 @@
 ## Completed Compendiums
+Completed Compendiums is, to be frank, a Goodreads clone, with the extra feature of adding non-book media (namely films and television series) to lists. 
 The inspiration for this project was my desire to:
 
-1. Hone my React Skills
+1. Hone my React/UI/UX design skills
 2. Make an application that I would actually use ;)
 
+Link to project UI mockups [here](https://www.figma.com/file/XgscXGAfeurmxNjFHRjnAr/Collected-Compendiums?type=design&node-id=0%3A1&mode=design&t=bAWe6zFxLPkGeU4i-1)
 
 ## Misc Info (You can stop reading here)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
